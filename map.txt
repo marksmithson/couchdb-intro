@@ -1,0 +1,76 @@
+List ALl Tags in DB
+===================
+
+Map Function:
+
+function(doc) {
+	if (doc.tags != null){
+		for(var i=0; i < doc.tags.length; i++) {
+			emit(doc.tags[i], null);
+		}
+	}
+}
+
+
+
+
+
+
+
+Count Tags in DB
+================
+
+Map Function:
+
+function(doc) {
+	if (doc.tags != null){
+		for(var i=0; i < doc.tags.length; i++) {
+			emit(doc.tags[i], 1);
+		}
+	}
+}
+
+Reduce Function:
+
+function(keys, values, rereduce){
+	var sum = 0;
+	for (var val in values){
+	 	sum += values[val];
+	}
+	return sum;
+}
+
+
+
+
+
+
+
+
+
+Group Multiple Tags
+===================
+
+Map Function:
+
+function(doc) { 
+	if (doc.tags != null){ 
+		for(var i=0; i < doc.tags.length; i++) { 
+			for(var j=0; j < doc.tags.length; j++) { 
+				if (doc.tags[i] != doc.tags[j]) { 
+					emit([doc.tags[i], doc.tags[j]], 1);
+				}
+			}
+		}
+	}
+}
+
+Reduce Function:
+
+function(keys, values, rereduce){ 
+	var sum = 0; 
+	for (var val in values){ 
+		sum += values[val]; 
+	} 
+	return sum;
+}

@@ -1,0 +1,245 @@
+{
+"docs":[
+	{
+		"_id":"django",
+		"title":"From zero to here with Python & Django",
+		"subtitle":"an unexpected adventure in open-source software development",
+		"presenter":{
+			"name":"Danliele Procida",
+			"twitter":"@evildmp"
+		},
+		"date": "2012-10-03",
+		"tags":["python","django","cms","web"]
+	},	
+	{
+		"_id":"stories",
+		"title":"'I was asked to tell stories'",
+		"subtitle":"12 years of programming in 45 mins",
+		"presenter":{
+			"name":"Craig Marvelley",
+			"twitter":"@craigmarvelley"
+		},
+		"date": "2012-10-03",
+		"tags":["stories","php","web"]
+	},
+	{
+		"_id":"drupal",
+		"title":"So what is this Drupal thing?",
+		"presenter":{
+			"name":"Oliver Davies",
+			"twitter":"@opdavies"
+		},
+		"date": "2012-09-05",
+		"video": "http://vimeo.com/49827006",
+		"tags":["drupal","php","cms", "web"]
+	},
+	{
+		"_id":"swarm",
+		"title":"Swarm!",
+		"subtitle":"(ed: hint, it's about AI)",
+		"presenter":{
+			"name":"Nick Reed",
+			"twitter":"@squiddon"
+		},
+		"date":"2012-09-05",
+		"video":"http://vimeo.com/50227619",
+		"tags":["ai","graphics","network"]
+	},
+	{
+		"_id": "stress",
+		"title": "Stress = Urgency * Novelty * Scale",
+		"subtitle": "Monitoring a construction site using networked Arduino-based cameras",
+		"presenter": {
+			"name":"Hamish Harvey",
+			"twitter":"@hamishharvey"
+		},
+		"date":"2012-09-05",
+		"video":"http://vimeo.com/50357840",
+		"tags":["monitoring","arduino","network"]
+	},
+	{
+		"_id":"netflix",
+		"title":"How to Build Your Own Netflix",
+		"presenter":{
+			"name":"David Jenkins"
+		},
+		"date":"2012-07-04",
+		"video":"http://vimeo.com/46345831",
+		"tags":["streaming","video", "web"]
+	},
+	{
+		"_id":"mocking",
+		"title":"Object Mocking",
+		"presenter":{
+			"name":"Chris Beale",
+			"twitter":"@wtfgecko"
+		},
+		"date":"2012-07-04",
+		"video":"http://vimeo.com/48060204",
+		"tags":["testing","mocking"]
+	},
+	{
+		"_id":"opencv",
+		"title":"OpenCV in your face",
+		"presenter":{
+			"name":"Paul Preece"
+		},
+		"date":"2012-06-06",
+		"video":"http://vimeo.com/43806467",
+		"tags":["face recognition",""],
+		"links":["https://github.com/unified-diff/opencv-in-your-face"]
+	},
+	{
+		"_id":"load_testing",
+		"title":"Load testing at web scale",
+		"subtitle":"with Apache JMeter",
+		"presenter":{
+			"name":"Richard Gaywood",
+			"twitter":"@penllawen"
+		},
+		"date":"2012-06-06",
+		"video":"http://vimeo.com/43806468",
+		"tags":["testing","apache","web"]
+	},
+	{
+		"_id":"cutting_edge",
+		"title":"An overview of cutting edge web development.",
+		"presenter":{
+			"name":"Ian Jenkins",
+			"twitter":"@jenko"
+		},
+		"date":"2012-05-02",
+		"video":"http://vimeo.com/42411606",
+		"tags":["web","javascript","css","html5"]
+	},
+	{
+		"_id":"lithium",
+		"title":"Lithium",
+		"subtitle":"Why it's (almost) clever enough to make me believe in intelligent design.",
+		"presenter":{
+			"name":"Warren Seymour",
+			"twitter":"@woogoose"
+		},
+		"date":"2012-05-02",
+		"video":"http://vimeo.com/42757692",
+		"tags":["php","web"]
+	},
+	{
+		"_id":"myspace_tv",
+		"title":"Myspace TV",
+		"subtitle":"500 channels and nothing on, television just got social again.",
+		"presenter":{
+			"name":"Simon Bowen"
+		},
+		"date":"2012-05-02"
+	},
+	{
+		"_id":"node.js",
+		"title":"Event-driven horizons",
+		"subtitle":"an intro to node.js",
+		"presenter":{
+			"name":"Robin Duckett",
+			"twitter":"@robinduckett"
+		},
+		"date":"2012-04-04",
+		"video":"http://vimeo.com/40506233",
+		"tags":["web","node.js"],
+		"links":["https://github.com/robinduckett/intro-to-node-js"]
+	},
+	{
+		"_id":"pager",
+		"title":"Pager? What Pager?",
+		"subtitle":"Deploying code effectively without waking people up",
+		"presenter":{
+			"name":"Matthew Macdonald-Wallace",
+			"twitter":"@ProfFalken"
+		},
+		"date":"2012-04-04",
+		"video":"http://vimeo.com/40922357",
+		"tags":["web","deployment", "devops"]
+	},
+	{
+		"_id":"triple_a",
+		"title":"Under the Hood",
+		"subtitle":"A brief tour of a triple-A game engine.",
+		"presenter":{
+			"name":"Ian Thomas",
+			"twitter":"@wildwinter"
+		},
+		"date":"2012-07-04",
+		"video":"http://vimeo.com/user10307954/a-brief-overview-of-a-triple-a-games-engine",
+		"tags":["gaming"]
+	},
+	{
+		"_id":"clojure",
+		"title":"Getting Clojure",
+		"subtitle":"An overview of how functional programming is now proper.",
+		"presenter":{
+			"name":"Rod Pugh",
+			"twitter":"@rodnaph"
+		},
+		"date":"2012-03-07",
+		"video":"http://vimeo.com/38352572",
+		"tags":["clojure","functional"],
+		"links":["https://github.com/rodnaph/clojure-talk"]
+	},
+	{
+		"_id":"testability",
+		"title":"Testability (It's an -ility)",
+		"subtitle":"Inside the emergent software development skill-set that is Test Engineering.",
+		"presenter":{
+			"name":"Sean Robbins",
+			"twitter":"@sean_robbins"
+		},
+		"date":"2012-03-07",
+		"video":"http://vimeo.com/38716925",
+		"tags":["testing"]
+	},
+	{
+		"_id":"film",
+		"title":"A Scientist in an Adventure with Pirates",
+		"subtitle":"A whistlestop tour of why a developer was hired to help on Aardman's latest feature film.",
+		"presenter":{
+			"name":"Ian Wootten",
+			"twitter":"@niftydigits"
+		},
+		"date":"2012-03-07",
+		"video":"http://vimeo.com/39295205",
+		"tags":["film","animation"]
+	},
+	{
+		"_id":"terminal",
+		"title":"How to handle your terminal like a boss",
+		"presenter":{
+			"name":"Warren Seymour",
+			"twitter":"@woogoose"
+		},
+		"date":"2012-02-01",
+		"video":"http://vimeo.com/37690053",
+		"tags":["terminal","vim"],
+		"links":["https://github.com/warrenseymour/dotfiles"]
+	},
+	{
+		"_id":"clean_code",
+		"title":"Clean Code",
+		"presenter":{
+			"name":"Gavin Davies",
+			"twitter":"@gavd_uk"
+		},
+		"date":"2012-02-01",
+		"video":"http://vimeo.com/user10307954/clean-code-gavin-davies",
+		"tags":["refactoring","code quality"],
+		"links":["https://github.com/gavD/refactoring-to-clean-code"]
+	},
+	{
+		"_id":"loneliness",
+		"title":"The Loneliness of a Long Distance Coder",
+		"presenter":{
+			"name":"Carey Hiles",
+			"twitter":"@handybitesize"
+		},
+		"date":"2012-02-01",
+		"video":"http://vimeo.com/37279704",
+		"tags":["social"]
+	}
+]}
